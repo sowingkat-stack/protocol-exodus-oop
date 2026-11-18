@@ -1,7 +1,7 @@
 package com.exodus.entities;
 
 import com.exodus.combat.Item;
-import com.exodus.main.KeyHandler;
+import com.exodus.engine.KeyHandler;
 import com.exodus.world.RoomMap;
 
 import java.awt.Color;

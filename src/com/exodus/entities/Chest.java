@@ -1,7 +1,7 @@
 package com.exodus.entities;
 
 import com.exodus.combat.Item;
-import com.exodus.main.GamePanel;
+import com.exodus.engine.GamePanel;
 import com.exodus.world.StoryState;
 
 import java.awt.Color;

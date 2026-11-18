@@ -51,7 +51,7 @@ public class GamePanel extends JPanel {
         this.dialogueBox = new DialogueBox();
         this.battleScreen = new BattleScreen();
         this.combatManager = new CombatManager();
-        this.player = new Player();
+        this.player = new Player(keyH, roomMap);
         this.currentState = GameState.TITLE;
 
         this.setPreferredSize(new Dimension(SCREEN_WIDTH, SCREEN_HEIGHT));
